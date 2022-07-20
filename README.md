@@ -18,5 +18,8 @@ Watch how Takuya built the template on his YouTube channel:
 - [Chakra UI](https://chakra-ui.com/) - A simple, modular and accessible component library for React
 - [Three.js](https://threejs.org/) - 3D library for JavaScript
 - [Framer Motion](https://www.framer.com/motion/) - An animation library for React
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 07f0ff3df4ef1af418939ee4df4cc8f6ab8a49f0
