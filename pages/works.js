@@ -37,7 +37,8 @@ const Works = () => (
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section delay={0.3}>
           <WorkGridItem id="gronor" thumbnail={thumbGronor} title="GronOR">
-            A quantum chemistry software package based on the NOCI method
+            A quantum chemistry software package based on the Non-Orthogonal
+            Configuration Interaction method
           </WorkGridItem>
         </Section>
         <Section delay={0.3}>
@@ -61,7 +62,8 @@ const Works = () => (
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section delay={0.5}>
           <WorkGridItem id="liqpools" thumbnail={thumbLiqPools} title="Bitcoin Liquidation Pools">
-            Client for getting the approximate liquidation points in BitMEX based on incoming orders
+            Client for getting the approximate liquidation points in BitMEX
+            based on incoming orders
           </WorkGridItem>
         </Section>
         

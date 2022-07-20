@@ -43,7 +43,7 @@ const Home = () => (
           <Heading as="h2" variant="page-title">
             Aitor Sanchez
           </Heading>
-          <p>Developer, scientist and entepreneur</p>
+          <p>Developer/ Scientist</p>
         </Box>
         <Box
           flexShrink={0}
@@ -77,11 +77,14 @@ const Home = () => (
           Work
         </Heading>
         <Paragraph>
-          Aitor Sanchez is a scientist and a freelancer. He is full of passion for building digital services and pushing the barrier of knowledge. Currently he is exploring the benefits of state of the art machine learning techniques applied to agriculture and food production. He created {' '} 
+          Aitor Sanchez is a scientist and a freelancer. He is full of passion for building digital
+          services and pushing the barrier of knowledge. Currently he is exploring the benefits of
+          state of the art machine learning techniques applied to agriculture and food production.
+          He created {' '} 
           <NextLink href="/works/plantula" passHref scroll={false}>
             <Link>Plantula</Link>
           </NextLink>
-   , a plant-recognition app for farmers.
+  , a plant-recognition app for farmers.
         </Paragraph>
         <Box align="center" my={4}>
           <NextLink href="/works" passHref scroll={false}>
@@ -117,12 +120,10 @@ const Home = () => (
         </Heading>
         <Paragraph>
           Art, Music,{' '}          
-            Drawing, Surfing, Skiing,{' '}          
-          Enterpreneurship,{' '}          
-          , Physics, Machine Learning
+            Drawing, Surfing, Skiing,{' '}
+            Physics, Machine Learning
         </Paragraph>
       </Section>
-
       <Section delay={0.3}>
         <Heading as="h3" variant="section-title">
           On the web
