@@ -2,6 +2,7 @@ import { useState, useEffect, useRef, useCallback } from 'react'
 import * as THREE from 'three'
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls'
 import { loadGLTFModel } from '../lib/model'
+
 import { DogSpinner, DogContainer } from './voxel-dog-loader'
 
 function easeOutCirc(x) {
@@ -73,10 +74,10 @@ const VoxelDog = () => {
       controls.autoRotate = true
       controls.target = target
       setControls(controls)
-
-      loadGLTFModel(scene, '/dog.glb', {
-        receiveShadow: false,
-        castShadow: false
+      
+      loadGLTFModel(scene, '/computer.glb', {
+        receiveShadow: true,
+        castShadow: true
       }).then(() => {
         animate()
         setLoading(false)

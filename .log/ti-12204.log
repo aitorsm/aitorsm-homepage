@@ -1,0 +1,51 @@
+[10:31:00.149] Global cache location 'C:/Users/aitor/AppData/Local/Microsoft/TypeScript/4.6', safe file path 'c:/users/aitor/aitorsm-homepage/node_modules/typescript/lib/typingsafelist.json', types map path c:/users/aitor/aitorsm-homepage/node_modules/typescript/lib/typesmap.json
+[10:31:00.151] Processing cache location 'C:/Users/aitor/AppData/Local/Microsoft/TypeScript/4.6'
+[10:31:00.152] Trying to find 'C:/Users/aitor/AppData/Local/Microsoft/TypeScript/4.6/package.json'...
+[10:31:00.162] Loaded content of 'C:/Users/aitor/AppData/Local/Microsoft/TypeScript/4.6/package.json': {"private":true,"dependencies":{"types-registry":"^0.1.601"},"devDependencies":{"@types/three":"^0.141.0"}}
+[10:31:00.163] Loaded content of 'C:/Users/aitor/AppData/Local/Microsoft/TypeScript/4.6/package-lock.json'
+[10:31:00.187] Adding entry into typings cache: 'three' => 'C:/Users/aitor/AppData/Local/Microsoft/TypeScript/4.6/node_modules/@types/three/index.d.ts'
+[10:31:00.187] Finished processing cache location 'C:/Users/aitor/AppData/Local/Microsoft/TypeScript/4.6'
+[10:31:00.188] Process id: 12420
+[10:31:00.189] NPM location: "C:\Program Files\nodejs\npm" (explicit '--npmLocation' not  provided)
+[10:31:00.189] validateDefaultNpmLocation: false
+[10:31:00.190] Npm config file: C:/Users/aitor/AppData/Local/Microsoft/TypeScript/4.6/package.json
+[10:31:00.190] Updating types-registry npm package...
+[10:31:00.191] Exec: "C:\Program Files\nodejs\npm" install --ignore-scripts types-registry@latest
+[10:31:02.989]     Succeeded. stdout:
+    
+    up to date, audited 4 packages in 1s
+
+found 0 vulnerabilities
+
+[10:31:02.990] Updated types-registry npm package
+[10:31:20.402] Got install request {"projectName":"/dev/null/inferredProject1*","fileNames":["c:/Users/aitor/aitorsm-homepage/node_modules/typescript/lib/lib.es5.d.ts","c:/Users/aitor/aitorsm-homepage/node_modules/typescript/lib/lib.es2015.d.ts","c:/Users/aitor/aitorsm-homepage/node_modules/typescript/lib/lib.es2016.d.ts","c:/Users/aitor/aitorsm-homepage/node_modules/typescript/lib/lib.dom.d.ts","c:/Users/aitor/aitorsm-homepage/node_modules/typescript/lib/lib.dom.iterable.d.ts","c:/Users/aitor/aitorsm-homepage/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","c:/Users/aitor/aitorsm-homepage/node_modules/typescript/lib/lib.scripthost.d.ts","c:/Users/aitor/aitorsm-homepage/node_modules/typescript/lib/lib.es2015.core.d.ts","c:/Users/aitor/aitorsm-homepage/node_modules/typescript/lib/lib.es2015.collection.d.ts","c:/Users/aitor/aitorsm-homepage/node_modules/typescript/lib/lib.es2015.generator.d.ts","c:/Users/aitor/aitorsm-homepage/node_modules/typescript/lib/lib.es2015.iterable.d.ts","c:/Users/aitor/aitorsm-homepage/node_modules/typescript/lib/lib.es2015.promise.d.ts","c:/Users/aitor/aitorsm-homepage/node_modules/typescript/lib/lib.es2015.proxy.d.ts","c:/Users/aitor/aitorsm-homepage/node_modules/typescript/lib/lib.es2015.reflect.d.ts","c:/Users/aitor/aitorsm-homepage/node_modules/typescript/lib/lib.es2015.symbol.d.ts","c:/Users/aitor/aitorsm-homepage/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts","c:/Users/aitor/aitorsm-homepage/node_modules/typescript/lib/lib.es2016.array.include.d.ts","c:/Users/aitor/aitorsm-homepage/node_modules/typescript/lib/lib.es2016.full.d.ts","c:/Users/aitor/aitorsm-homepage/components/voxel-obj-loader.js"],"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":[],"projectRootPath":"c:/Users/aitor/aitorsm-homepage/components","kind":"discover"}
+[10:31:20.420] Loaded safelist from types map file 'c:/users/aitor/aitorsm-homepage/node_modules/typescript/lib/typesmap.json'
+[10:31:20.421] Explicitly included types: []
+[10:31:20.423] Inferred typings from unresolved imports: []
+[10:31:20.423] Result: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["c:/Users/aitor/aitorsm-homepage/components/bower_components","c:/Users/aitor/aitorsm-homepage/components/node_modules"]}
+[10:31:20.424] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["c:/Users/aitor/aitorsm-homepage/components/bower_components","c:/Users/aitor/aitorsm-homepage/components/node_modules"]}
+[10:31:20.425] DirectoryWatcher:: Added:: WatchInfo: c:/Users/aitor/aitorsm-homepage/components/bower_components
+[10:31:20.426] DirectoryWatcher:: Added:: WatchInfo: c:/Users/aitor/aitorsm-homepage/components/bower_components 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[10:31:20.428] Elapsed:: 1.4614000000001397ms DirectoryWatcher:: Added:: WatchInfo: c:/Users/aitor/aitorsm-homepage/components/bower_components 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[10:31:20.428] DirectoryWatcher:: Added:: WatchInfo: c:/Users/aitor/aitorsm-homepage/components/node_modules
+[10:31:20.429] DirectoryWatcher:: Added:: WatchInfo: c:/Users/aitor/aitorsm-homepage/components/node_modules 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[10:31:20.429] Elapsed:: 0.19150000001536682ms DirectoryWatcher:: Added:: WatchInfo: c:/Users/aitor/aitorsm-homepage/components/node_modules 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[10:31:20.430] Sending response:
+    {"projectName":"/dev/null/inferredProject1*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":[],"kind":"action::set"}
+[10:31:20.431] Response has been sent.
+[10:31:20.431] No new typings were requested as a result of typings discovery
+[10:31:52.183] Got install request {"projectName":"/dev/null/inferredProject2*","fileNames":["c:/Users/aitor/aitorsm-homepage/node_modules/typescript/lib/lib.es5.d.ts","c:/Users/aitor/aitorsm-homepage/node_modules/typescript/lib/lib.es2015.d.ts","c:/Users/aitor/aitorsm-homepage/node_modules/typescript/lib/lib.es2016.d.ts","c:/Users/aitor/aitorsm-homepage/node_modules/typescript/lib/lib.dom.d.ts","c:/Users/aitor/aitorsm-homepage/node_modules/typescript/lib/lib.dom.iterable.d.ts","c:/Users/aitor/aitorsm-homepage/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","c:/Users/aitor/aitorsm-homepage/node_modules/typescript/lib/lib.scripthost.d.ts","c:/Users/aitor/aitorsm-homepage/node_modules/typescript/lib/lib.es2015.core.d.ts","c:/Users/aitor/aitorsm-homepage/node_modules/typescript/lib/lib.es2015.collection.d.ts","c:/Users/aitor/aitorsm-homepage/node_modules/typescript/lib/lib.es2015.generator.d.ts","c:/Users/aitor/aitorsm-homepage/node_modules/typescript/lib/lib.es2015.iterable.d.ts","c:/Users/aitor/aitorsm-homepage/node_modules/typescript/lib/lib.es2015.promise.d.ts","c:/Users/aitor/aitorsm-homepage/node_modules/typescript/lib/lib.es2015.proxy.d.ts","c:/Users/aitor/aitorsm-homepage/node_modules/typescript/lib/lib.es2015.reflect.d.ts","c:/Users/aitor/aitorsm-homepage/node_modules/typescript/lib/lib.es2015.symbol.d.ts","c:/Users/aitor/aitorsm-homepage/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts","c:/Users/aitor/aitorsm-homepage/node_modules/typescript/lib/lib.es2016.array.include.d.ts","c:/Users/aitor/aitorsm-homepage/node_modules/typescript/lib/lib.es2016.full.d.ts","c:/Users/aitor/aitorsm-homepage/lib/model.js"],"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":[],"projectRootPath":"c:/Users/aitor/aitorsm-homepage/lib","kind":"discover"}
+[10:31:52.185] Explicitly included types: []
+[10:31:52.186] Inferred typings from unresolved imports: []
+[10:31:52.186] Result: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["c:/Users/aitor/aitorsm-homepage/lib/bower_components","c:/Users/aitor/aitorsm-homepage/lib/node_modules"]}
+[10:31:52.187] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["c:/Users/aitor/aitorsm-homepage/lib/bower_components","c:/Users/aitor/aitorsm-homepage/lib/node_modules"]}
+[10:31:52.187] DirectoryWatcher:: Added:: WatchInfo: c:/Users/aitor/aitorsm-homepage/lib/bower_components
+[10:31:52.188] DirectoryWatcher:: Added:: WatchInfo: c:/Users/aitor/aitorsm-homepage/lib/bower_components 1 undefined Project: /dev/null/inferredProject2* watcher already invoked: false
+[10:31:52.189] Elapsed:: 0.299799999978859ms DirectoryWatcher:: Added:: WatchInfo: c:/Users/aitor/aitorsm-homepage/lib/bower_components 1 undefined Project: /dev/null/inferredProject2* watcher already invoked: false
+[10:31:52.189] DirectoryWatcher:: Added:: WatchInfo: c:/Users/aitor/aitorsm-homepage/lib/node_modules
+[10:31:52.190] DirectoryWatcher:: Added:: WatchInfo: c:/Users/aitor/aitorsm-homepage/lib/node_modules 1 undefined Project: /dev/null/inferredProject2* watcher already invoked: false
+[10:31:52.191] Elapsed:: 0.17699999999604188ms DirectoryWatcher:: Added:: WatchInfo: c:/Users/aitor/aitorsm-homepage/lib/node_modules 1 undefined Project: /dev/null/inferredProject2* watcher already invoked: false
+[10:31:52.191] Sending response:
+    {"projectName":"/dev/null/inferredProject2*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":[],"kind":"action::set"}
+[10:31:52.191] Response has been sent.
+[10:31:52.192] No new typings were requested as a result of typings discovery

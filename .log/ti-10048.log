@@ -1,0 +1,80 @@
+[19:51:44.365] Global cache location 'C:/Users/aitor/AppData/Local/Microsoft/TypeScript/4.7', safe file path 'c:/users/aitor/node_modules/typescript/lib/typingsafelist.json', types map path c:/users/aitor/node_modules/typescript/lib/typesmap.json
+[19:51:44.368] Processing cache location 'C:/Users/aitor/AppData/Local/Microsoft/TypeScript/4.7'
+[19:51:44.368] Trying to find 'C:/Users/aitor/AppData/Local/Microsoft/TypeScript/4.7/package.json'...
+[19:51:44.371] Loaded content of 'C:/Users/aitor/AppData/Local/Microsoft/TypeScript/4.7/package.json': {"private":true,"dependencies":{"types-registry":"^0.1.601"},"devDependencies":{"@types/body-scroll-lock":"^3.1.0","@types/bootstrap":"^5.1.12","@types/co":"^4.6.3","@types/core-js":"^2.5.5","@types/eslint":"^8.4.5","@types/eslint-config-prettier":"^6.11.0","@types/prettier":"^2.6.3","@types/react":"^18.0.15","@types/webpack":"^5.28.0","@types/workbox-background-sync":"^4.3.2","@types/workbox-broadcast-update":"^4.3.1","@types/workbox-cacheable-response":"^4.3.1","@types/workbox-expiration":"^4.3.1","@types/workbox-range-requests":"^4.3.0","@types/workbox-routing":"^4.3.1","@types/workbox-strategies":"^4.3.1","@types/xo":"^0.39.3"}}
+[19:51:44.372] Loaded content of 'C:/Users/aitor/AppData/Local/Microsoft/TypeScript/4.7/package-lock.json'
+[19:51:44.389] Adding entry into typings cache: 'body-scroll-lock' => 'C:/Users/aitor/AppData/Local/Microsoft/TypeScript/4.7/node_modules/@types/body-scroll-lock/index.d.ts'
+[19:51:44.394] Adding entry into typings cache: 'bootstrap' => 'C:/Users/aitor/AppData/Local/Microsoft/TypeScript/4.7/node_modules/@types/bootstrap/index.d.ts'
+[19:51:44.396] Adding entry into typings cache: 'co' => 'C:/Users/aitor/AppData/Local/Microsoft/TypeScript/4.7/node_modules/@types/co/index.d.ts'
+[19:51:44.399] Adding entry into typings cache: 'core-js' => 'C:/Users/aitor/AppData/Local/Microsoft/TypeScript/4.7/node_modules/@types/core-js/index.d.ts'
+[19:51:44.403] Adding entry into typings cache: 'eslint' => 'C:/Users/aitor/AppData/Local/Microsoft/TypeScript/4.7/node_modules/@types/eslint/index.d.ts'
+[19:51:44.407] Adding entry into typings cache: 'eslint-config-prettier' => 'C:/Users/aitor/AppData/Local/Microsoft/TypeScript/4.7/node_modules/@types/eslint-config-prettier/index.d.ts'
+[19:51:44.411] Adding entry into typings cache: 'prettier' => 'C:/Users/aitor/AppData/Local/Microsoft/TypeScript/4.7/node_modules/@types/prettier/index.d.ts'
+[19:51:44.418] Adding entry into typings cache: 'react' => 'C:/Users/aitor/AppData/Local/Microsoft/TypeScript/4.7/node_modules/@types/react/index.d.ts'
+[19:51:44.427] Adding entry into typings cache: 'webpack' => 'C:/Users/aitor/AppData/Local/Microsoft/TypeScript/4.7/node_modules/webpack/types.d.ts'
+[19:51:44.430] Adding entry into typings cache: 'workbox-background-sync' => 'C:/Users/aitor/AppData/Local/Microsoft/TypeScript/4.7/node_modules/@types/workbox-background-sync/index.d.ts'
+[19:51:44.432] Adding entry into typings cache: 'workbox-broadcast-update' => 'C:/Users/aitor/AppData/Local/Microsoft/TypeScript/4.7/node_modules/@types/workbox-broadcast-update/index.d.ts'
+[19:51:44.436] Adding entry into typings cache: 'workbox-cacheable-response' => 'C:/Users/aitor/AppData/Local/Microsoft/TypeScript/4.7/node_modules/@types/workbox-cacheable-response/index.d.ts'
+[19:51:44.438] Adding entry into typings cache: 'workbox-expiration' => 'C:/Users/aitor/AppData/Local/Microsoft/TypeScript/4.7/node_modules/@types/workbox-expiration/index.d.ts'
+[19:51:44.441] Adding entry into typings cache: 'workbox-range-requests' => 'C:/Users/aitor/AppData/Local/Microsoft/TypeScript/4.7/node_modules/@types/workbox-range-requests/index.d.ts'
+[19:51:44.443] Adding entry into typings cache: 'workbox-routing' => 'C:/Users/aitor/AppData/Local/Microsoft/TypeScript/4.7/node_modules/@types/workbox-routing/index.d.ts'
+[19:51:44.445] Adding entry into typings cache: 'workbox-strategies' => 'C:/Users/aitor/AppData/Local/Microsoft/TypeScript/4.7/node_modules/@types/workbox-strategies/index.d.ts'
+[19:51:44.448] Adding entry into typings cache: 'xo' => 'C:/Users/aitor/AppData/Local/Microsoft/TypeScript/4.7/node_modules/@types/xo/index.d.ts'
+[19:51:44.448] Finished processing cache location 'C:/Users/aitor/AppData/Local/Microsoft/TypeScript/4.7'
+[19:51:44.449] Process id: 2252
+[19:51:44.449] NPM location: "C:\Program Files\nodejs\npm" (explicit '--npmLocation' not  provided)
+[19:51:44.450] validateDefaultNpmLocation: false
+[19:51:44.450] Npm config file: C:/Users/aitor/AppData/Local/Microsoft/TypeScript/4.7/package.json
+[19:51:44.451] Updating types-registry npm package...
+[19:51:44.451] Exec: "C:\Program Files\nodejs\npm" install --ignore-scripts types-registry@latest
+[19:51:46.610]     Succeeded. stdout:
+    
+    up to date, audited 101 packages in 799ms
+
+10 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+[19:51:46.611] Updated types-registry npm package
+[19:51:56.720] Got install request {"projectName":"/dev/null/inferredProject1*","fileNames":["c:/Users/aitor/node_modules/typescript/lib/lib.es5.d.ts","c:/Users/aitor/node_modules/typescript/lib/lib.es2015.d.ts","c:/Users/aitor/node_modules/typescript/lib/lib.es2016.d.ts","c:/Users/aitor/node_modules/typescript/lib/lib.dom.d.ts","c:/Users/aitor/node_modules/typescript/lib/lib.dom.iterable.d.ts","c:/Users/aitor/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","c:/Users/aitor/node_modules/typescript/lib/lib.scripthost.d.ts","c:/Users/aitor/node_modules/typescript/lib/lib.es2015.core.d.ts","c:/Users/aitor/node_modules/typescript/lib/lib.es2015.collection.d.ts","c:/Users/aitor/node_modules/typescript/lib/lib.es2015.generator.d.ts","c:/Users/aitor/node_modules/typescript/lib/lib.es2015.iterable.d.ts","c:/Users/aitor/node_modules/typescript/lib/lib.es2015.promise.d.ts","c:/Users/aitor/node_modules/typescript/lib/lib.es2015.proxy.d.ts","c:/Users/aitor/node_modules/typescript/lib/lib.es2015.reflect.d.ts","c:/Users/aitor/node_modules/typescript/lib/lib.es2015.symbol.d.ts","c:/Users/aitor/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts","c:/Users/aitor/node_modules/typescript/lib/lib.es2016.array.include.d.ts","c:/Users/aitor/node_modules/typescript/lib/lib.es2016.full.d.ts","c:/Users/aitor/aitorsm-homepage/components/paragraph.js","c:/Users/aitor/aitorsm-homepage/components/bio.js","c:/Users/aitor/aitorsm-homepage/components/grid-item.js","c:/Users/aitor/aitorsm-homepage/components/layouts/article.js","c:/Users/aitor/aitorsm-homepage/components/section.js","c:/Users/aitor/aitorsm-homepage/lib/theme.js","c:/Users/aitor/aitorsm-homepage/components/chakra.js","c:/Users/aitor/aitorsm-homepage/pages/index.js"],"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":["@chakra-ui/icons","@chakra-ui/react","@chakra-ui/theme-tools","framer-motion","next","react-icons"],"projectRootPath":"c:/Users/aitor/aitorsm-homepage/pages","kind":"discover"}
+[19:51:56.734] Loaded safelist from types map file 'c:/users/aitor/node_modules/typescript/lib/typesmap.json'
+[19:51:56.735] Explicitly included types: []
+[19:51:56.738] Inferred typings from unresolved imports: ["@chakra-ui/icons","@chakra-ui/react","@chakra-ui/theme-tools","framer-motion","next","react-icons"]
+[19:51:56.738] Result: {"cachedTypingPaths":[],"newTypingNames":["@chakra-ui/icons","@chakra-ui/react","@chakra-ui/theme-tools","framer-motion","next","react-icons"],"filesToWatch":["c:/Users/aitor/aitorsm-homepage/components/bower_components","c:/Users/aitor/aitorsm-homepage/components/node_modules","c:/Users/aitor/aitorsm-homepage/components/layouts/bower_components","c:/Users/aitor/aitorsm-homepage/components/layouts/node_modules","c:/Users/aitor/aitorsm-homepage/lib/bower_components","c:/Users/aitor/aitorsm-homepage/lib/node_modules","c:/Users/aitor/aitorsm-homepage/pages/bower_components","c:/Users/aitor/aitorsm-homepage/pages/node_modules"]}
+[19:51:56.739] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":["@chakra-ui/icons","@chakra-ui/react","@chakra-ui/theme-tools","framer-motion","next","react-icons"],"filesToWatch":["c:/Users/aitor/aitorsm-homepage/components/bower_components","c:/Users/aitor/aitorsm-homepage/components/node_modules","c:/Users/aitor/aitorsm-homepage/components/layouts/bower_components","c:/Users/aitor/aitorsm-homepage/components/layouts/node_modules","c:/Users/aitor/aitorsm-homepage/lib/bower_components","c:/Users/aitor/aitorsm-homepage/lib/node_modules","c:/Users/aitor/aitorsm-homepage/pages/bower_components","c:/Users/aitor/aitorsm-homepage/pages/node_modules"]}
+[19:51:56.740] DirectoryWatcher:: Added:: WatchInfo: c:/Users/aitor/aitorsm-homepage/components/bower_components
+[19:51:56.740] DirectoryWatcher:: Added:: WatchInfo: c:/Users/aitor/aitorsm-homepage/components/bower_components 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[19:51:56.742] Elapsed:: 1.4541999995708466ms DirectoryWatcher:: Added:: WatchInfo: c:/Users/aitor/aitorsm-homepage/components/bower_components 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[19:51:56.743] DirectoryWatcher:: Added:: WatchInfo: c:/Users/aitor/aitorsm-homepage/components/node_modules
+[19:51:56.743] DirectoryWatcher:: Added:: WatchInfo: c:/Users/aitor/aitorsm-homepage/components/node_modules 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[19:51:56.743] Elapsed:: 0.1699999999254942ms DirectoryWatcher:: Added:: WatchInfo: c:/Users/aitor/aitorsm-homepage/components/node_modules 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[19:51:56.744] DirectoryWatcher:: Added:: WatchInfo: c:/Users/aitor/aitorsm-homepage/components/layouts/bower_components
+[19:51:56.744] DirectoryWatcher:: Added:: WatchInfo: c:/Users/aitor/aitorsm-homepage/components/layouts/bower_components 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[19:51:56.745] Elapsed:: 0.15450000017881393ms DirectoryWatcher:: Added:: WatchInfo: c:/Users/aitor/aitorsm-homepage/components/layouts/bower_components 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[19:51:56.745] DirectoryWatcher:: Added:: WatchInfo: c:/Users/aitor/aitorsm-homepage/components/layouts/node_modules
+[19:51:56.745] DirectoryWatcher:: Added:: WatchInfo: c:/Users/aitor/aitorsm-homepage/components/layouts/node_modules 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[19:51:56.746] Elapsed:: 0.20569999888539314ms DirectoryWatcher:: Added:: WatchInfo: c:/Users/aitor/aitorsm-homepage/components/layouts/node_modules 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[19:51:56.746] DirectoryWatcher:: Added:: WatchInfo: c:/Users/aitor/aitorsm-homepage/lib/bower_components
+[19:51:56.747] DirectoryWatcher:: Added:: WatchInfo: c:/Users/aitor/aitorsm-homepage/lib/bower_components 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[19:51:56.747] Elapsed:: 0.1655000001192093ms DirectoryWatcher:: Added:: WatchInfo: c:/Users/aitor/aitorsm-homepage/lib/bower_components 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[19:51:56.748] DirectoryWatcher:: Added:: WatchInfo: c:/Users/aitor/aitorsm-homepage/lib/node_modules
+[19:51:56.748] DirectoryWatcher:: Added:: WatchInfo: c:/Users/aitor/aitorsm-homepage/lib/node_modules 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[19:51:56.749] Elapsed:: 0.15530000068247318ms DirectoryWatcher:: Added:: WatchInfo: c:/Users/aitor/aitorsm-homepage/lib/node_modules 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[19:51:56.749] DirectoryWatcher:: Added:: WatchInfo: c:/Users/aitor/aitorsm-homepage/pages/bower_components
+[19:51:56.749] DirectoryWatcher:: Added:: WatchInfo: c:/Users/aitor/aitorsm-homepage/pages/bower_components 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[19:51:56.750] Elapsed:: 0.18710000067949295ms DirectoryWatcher:: Added:: WatchInfo: c:/Users/aitor/aitorsm-homepage/pages/bower_components 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[19:51:56.750] DirectoryWatcher:: Added:: WatchInfo: c:/Users/aitor/aitorsm-homepage/pages/node_modules
+[19:51:56.751] DirectoryWatcher:: Added:: WatchInfo: c:/Users/aitor/aitorsm-homepage/pages/node_modules 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[19:51:56.751] Elapsed:: 0.15759999863803387ms DirectoryWatcher:: Added:: WatchInfo: c:/Users/aitor/aitorsm-homepage/pages/node_modules 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[19:51:56.752] Installing typings ["@chakra-ui/icons","@chakra-ui/react","@chakra-ui/theme-tools","framer-motion","next","react-icons"]
+[19:51:56.752] '@chakra-ui/icons':: Entry for package 'chakra-ui__icons' does not exist in local types registry - skipping...
+[19:51:56.753] '@chakra-ui/react':: Entry for package 'chakra-ui__react' does not exist in local types registry - skipping...
+[19:51:56.753] '@chakra-ui/theme-tools':: Entry for package 'chakra-ui__theme-tools' does not exist in local types registry - skipping...
+[19:51:56.754] 'framer-motion':: Entry for package 'framer-motion' does not exist in local types registry - skipping...
+[19:51:56.754] 'next':: Entry for package 'next' does not exist in local types registry - skipping...
+[19:51:56.754] 'react-icons':: Entry for package 'react-icons' does not exist in local types registry - skipping...
+[19:51:56.755] All typings are known to be missing or invalid - no need to install more typings
+[19:51:56.755] Sending response:
+    {"projectName":"/dev/null/inferredProject1*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":["@chakra-ui/icons","@chakra-ui/react","@chakra-ui/theme-tools","framer-motion","next","react-icons"],"kind":"action::set"}
+[19:51:56.756] Response has been sent.

@@ -25,8 +25,8 @@ const LinkItem = ({ href, path, target, children, ...props }) => {
     <NextLink href={href} passHref scroll={false}>
       <Link
         p={2}
-        bg={active ? 'grassTeal' : undefined}
-        color={active ? '#202023' : inactiveColor}
+        bg={active ? 'greenTeal' : undefined}
+        color={active ? 'blueConsole' : inactiveColor}
         target={target}
         {...props}
       >
@@ -36,6 +36,7 @@ const LinkItem = ({ href, path, target, children, ...props }) => {
   )
 }
 
+
 const Navbar = props => {
   const { path } = props
 
@@ -44,7 +45,7 @@ const Navbar = props => {
       position="fixed"
       as="nav"
       w="100%"
-      bg={useColorModeValue('#ffffff40', '#20202380')}
+      bg={useColorModeValue('#ffffff40', '#001B2680')}
       css={{ backdropFilter: 'blur(10px)' }}
       zIndex={2}
       {...props}
@@ -79,7 +80,7 @@ const Navbar = props => {
           </LinkItem>
           <LinkItem
             target="_blank"
-            href="https://github.com/craftzdog/craftzdog-homepage"
+            href="https://github.com/aitorsm"
             path={path}
             display="inline-flex"
             alignItems="center"
@@ -87,7 +88,7 @@ const Navbar = props => {
             pl={2}
           >
             <IoLogoGithub />
-            Source
+            Repository
           </LinkItem>
         </Stack>
 
@@ -114,9 +115,9 @@ const Navbar = props => {
                 </NextLink>
                 <MenuItem
                   as={Link}
-                  href="https://github.com/craftzdog/craftzdog-homepage"
+                  href="https://github.com/aitorsm"
                 >
-                  View Source
+                  Repository
                 </MenuItem>
               </MenuList>
             </Menu>
