@@ -24,17 +24,17 @@ const Main = ({ children, router }) => {
         <meta name="description" content="Aitor's homepage" />
         <meta name="author" content="Aitor Sanchez" />
         <meta name="author" content="aitorsm" />
-        <link rel="apple-touch-icon" href="180.png" />
+        <link rel="apple-touch-icon" href="/180.png" />
         <link rel="shortcut icon" href="/32.ico" type="image/x-icon" />
         <meta name="twitter:title" content="Aitor Sanchez" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@aitorsm" />
         <meta name="twitter:creator" content="@aitorsm" />
-        <meta name="twitter:image" content="https://www.craftz.dog/card.png" />
+        <meta name="twitter:image" content="/card.png" />
         <meta property="og:site_name" content="Aitor Sanchez" />
         <meta name="og:title" content="Aitor Sanchez" />
         <meta property="og:type" content="website" />
-        <meta property="og:image" content="https://www.craftz.dog/card.png" />
+        <meta property="og:image" content="/card.png" />
         <title>Aitor Sanchez  - Homepage</title>
       </Head>
 
