@@ -1,7 +1,6 @@
-import { Container, Heading, SimpleGrid } from '@chakra-ui/react'
+import { Container, Heading } from '@chakra-ui/react'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
-import { GridItem } from '../components/grid-item'
 
 const Posts = () => (
   <Layout title="Posts">
@@ -9,17 +8,11 @@ const Posts = () => (
       <Heading as="h3" fontSize={20} mb={4}>
         Posts
       </Heading>
-
       <Section delay={0.1}>
-
       </Section>
-
       <Section delay={0.3}>
-
       </Section>
-
       <Section delay={0.5}>
-
       </Section>
     </Container>
   </Layout>
