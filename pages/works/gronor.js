@@ -29,8 +29,9 @@ const Work = () => (
           <Meta>Stack</Meta>
           <span>FORTRAN, MPI, OpenMP, OpenACC, CUDA</span>
         </ListItem>
-      </List>
-      <WorkImage src="/images/works/gronor.jpg" alt="gronor" />      
+      </List>      
+      <WorkImage src="/images/works/gronor-screen.jpg" alt="gronor" />
+      <WorkImage src="/images/works/gronor.jpg" alt="gronor" />
     </Container>
   </Layout>
 )

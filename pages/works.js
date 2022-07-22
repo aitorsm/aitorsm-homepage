@@ -17,9 +17,12 @@ const Works = () => (
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section>
-          <WorkGridItem id="plantula"
-                        title="Plantula"
-                        thumbnail={thumbPlantula}
+          <WorkGridItem
+            id="plantula"
+            title="Plantula"
+            thumbnail={thumbPlantula}
+            width={150}
+            height={300}
           >
             A plant-recognition mobile app to help farmers with weeds
           </WorkGridItem>
@@ -36,15 +39,24 @@ const Works = () => (
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section delay={0.3}>
-          <WorkGridItem id="gronor" thumbnail={thumbGronor} title="GronOR">
+          <WorkGridItem
+            id="gronor"
+            thumbnail={thumbGronor}
+            title="GronOR"
+            width={200}
+            height={200}
+          >
             A quantum chemistry software package based on the Non-Orthogonal
             Configuration Interaction method
           </WorkGridItem>
         </Section>
         <Section delay={0.3}>
-          <WorkGridItem id="openmolcas"
+          <WorkGridItem
+            id="openmolcas"
             thumbnail={thumbOpenMolcas}
             title="OpenMolcas"
+            width={200}
+            height={200}            
           >
             Popular and widely used quantum chemistry software
           </WorkGridItem>
@@ -61,7 +73,13 @@ const Works = () => (
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section delay={0.5}>
-          <WorkGridItem id="liqpools" thumbnail={thumbLiqPools} title="Bitcoin Liquidation Pools">
+          <WorkGridItem
+            id="liqpools"
+            thumbnail={thumbLiqPools}
+            title="Bitcoin Liquidation Pools"
+            width={500}
+            height={300}            
+          >
             Client for getting the approximate liquidation points in BitMEX
             based on incoming orders
           </WorkGridItem>
